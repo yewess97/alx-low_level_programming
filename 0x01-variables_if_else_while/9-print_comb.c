@@ -1,0 +1,19 @@
+#include <stdio.h>
+/**
+ * main - a C program to print all possible combinations of single-digit numbers.
+ * Return: 0 (For Success)
+ **/
+int main(void)
+{
+	int num;
+
+	for (num = 0; num < 10; num++)
+	{
+		putchar((num % 10) + '0');
+		putchar(',');
+		putchar(' ');
+	}
+
+	putchar('\n');
+	return (0);
+}
