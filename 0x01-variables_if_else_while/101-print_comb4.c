@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - a C program to print all possible different combinations three digits.
+ * main - a C program to print all possible different combinations 3 digits.
  * Return: 0 (For Success)
  **/
 int main(void)
@@ -16,10 +16,8 @@ int main(void)
 				putchar((num1 % 10) + '0');
 				putchar((num2 % 10) + '0');
 				putchar((num3 % 10) + '0');
-				
 				if (num1 == 7 && num2 == 8 && num3 == 9)
 					continue;
-				
 				putchar(',');
 				putchar(' ');
 			}
