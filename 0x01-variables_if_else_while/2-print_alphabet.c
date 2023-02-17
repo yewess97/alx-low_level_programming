@@ -5,9 +5,9 @@
  **/
 int main(void)
 {
-	char y = 'y';
+	char y = "abcdefghijklmnopqrstuvwxyz";
 
-	while (y < 'z')
+	while (y <= 'z')
 	{
 		putchar(y);
 		y++;
