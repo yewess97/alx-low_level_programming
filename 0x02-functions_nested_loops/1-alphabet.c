@@ -3,7 +3,7 @@
  * main - a C program that prints the alphabet, in lowercase.
  * Return: 0 (For Success)
  **/
-int main(void)
+int print_alphabet(void)
 {
 	char i;
 
