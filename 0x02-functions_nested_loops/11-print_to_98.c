@@ -1,4 +1,4 @@
-#include <std.io>
+#include <stdio.h>
 #include "main.h"
 /**
  * print_to_98 - a C program that prints all natural numbers from n to 98.
