@@ -4,7 +4,7 @@
  * @c: the character
  * Return: 1 (For Success), 0 (For Failure)
  **/
-void _islower(int c)
+int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
 	{
