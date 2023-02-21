@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * main - a C program that prints the alphabet, in lowercase.
- * Return: 0 (For Success)
+ * print_alphabet - a C program that prints the alphabet, in lowercase.
  **/
 void print_alphabet(void)
 {
@@ -11,7 +10,6 @@ void print_alphabet(void)
 	{
 		_putchar(i);
 	}
-	_putchar('\n');
 
-	return (0);
+	_putchar('\n');
 }
