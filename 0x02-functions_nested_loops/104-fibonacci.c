@@ -15,7 +15,7 @@ int main(void)
 	for (count = 2; count < 98; count++)
 	{
 		if (count != 97)
-                        printf(", ");
+			printf(", ");
 		if (bk1 + bk2 > LARGEST || fr2 > 0 || fr1 > 0)
 		{
 			hold1 = (bk1 + bk2) / LARGEST;
