@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - a C program that prints the sum of all the multiples of 3 or 5 below 1024.
+ * main - a C program that prints sum of all multiples of 3 or 5 below 1024.
  * Return: 0 (For Success)
  **/
 int main(void)
