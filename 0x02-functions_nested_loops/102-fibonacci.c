@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main - a C program that prints the first 50 Fibonacci numbers, starting with 1 and 2.
+ * main - a C program that prints the first 50 Fibonacci numbers.
+ * description: starting with 1 and 2.
  * Return: 0 (For Success)
  **/
 int main(void)
@@ -13,7 +14,7 @@ int main(void)
 		if (i == 0)
 			printf("%ld", j);
 		else if (i == 1)
-			printf("%ld", k);
+			printf(", %ld", k);
 		else
 		{
 			k += j;
