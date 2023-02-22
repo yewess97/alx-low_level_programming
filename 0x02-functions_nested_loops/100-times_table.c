@@ -17,11 +17,10 @@ void print_times_table(int n)
 			{
 				_putchar(',');
 				_putchar(' ');
-				_putchar(' ');
 
 				prod = num * mult;
 
-				if (prod <= n)
+				if (prod > 10 || prod > 100)
 				{
 					_putchar(' ');
 				}
