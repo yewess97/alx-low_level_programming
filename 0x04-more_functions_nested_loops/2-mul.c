@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * mul - a C program that multiplies two integers.
