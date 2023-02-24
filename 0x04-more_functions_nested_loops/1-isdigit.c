@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * _isdigit - a C program that checks for a digit (0 through 9).
