@@ -14,7 +14,7 @@ int main(void)
 		if (num % i == 0)
 			max = num / i;
 	}
-	printf("%lu", max);
+	printf("%lu\n", max);
 
 	return (0);
 }
