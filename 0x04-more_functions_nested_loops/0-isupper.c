@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * _isupper - a C program that checks for uppercase character.
