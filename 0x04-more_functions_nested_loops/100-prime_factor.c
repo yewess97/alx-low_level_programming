@@ -6,8 +6,8 @@
  **/
 int main(void)
 {
-	unsigned long i, max;
-	unsigned long num = 612852475143;
+	long i, max;
+	long num = 612852475143;
 	double square = sqrt(num);
 
 	for (i = 1; i <= square; i++)
@@ -15,7 +15,7 @@ int main(void)
 		if (num % i == 0)
 			max = num / i;
 	}
-	printf("%lu\n", max);
+	printf("%ld\n", max);
 
 	return (0);
 }
