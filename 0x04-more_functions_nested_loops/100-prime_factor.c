@@ -6,7 +6,8 @@
  **/
 int main(void)
 {
-	unsigned long i, max, num = 612852475143;
+	unsigned long i, max;
+	unsigned long num = 612852475143;
 	double square = sqrt(num);
 
 	for (i = 1; i <= square; i++)
