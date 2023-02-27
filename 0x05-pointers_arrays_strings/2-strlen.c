@@ -4,11 +4,11 @@
  * @s: The string of which we want to return the length
  * Return: The length of the string
  **/
-size_t _strlen(const char *s)
+int _strlen(char *s)
 {
-	size_t len = 0;
+	int len = 0;
 
-	while (*s++)
+	while (s[len])
 	{
 		len++
 	}
