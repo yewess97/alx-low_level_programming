@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strlen - a C program that returns the length of a string.
- * @s: The string of which we want to return the length
+ * _puts - a C program that prints a string.
+ * @str: The string to be printed
  **/
-int _strlen(char *s)
+void _puts(char *str)
 {
 	size_t len = 0;
 
