@@ -1,20 +1,20 @@
 #include "main.h"
 /**
  * leet - a C program that encodes a string into 1337.
- * @n: The input value
- * Return: The n value
+ * @str: The string to be checked
+ * Return: A pointer to the string
  **/
-char *leet(char *n)
+char *leet(char *str)
 {
 	int i, j;
-	char s1[] = "aAeEoOtTlL", s2[] = "4433007711";
+	char letters[] = "aAeEoOtTlL", nums[] = "4433007711";
 
-	for (i = 0; n[i] != '\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
 		for (j = 0; j < 10; j++)
 		{
-			if (n[i] == s1[j])
-				n[i] = s2[j]
+			if (str[i] == letters[j])
+				str[i] = nums[j];
 		}
 	}
 
