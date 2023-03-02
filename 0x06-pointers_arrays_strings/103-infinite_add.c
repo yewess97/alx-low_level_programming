@@ -1,5 +1,28 @@
 #include "main.h"
 /**
+ * rev_string - reverse array
+ * @n: integer params
+ */
+void rev_string(char *n)
+{
+	int i = 0, j = 0;
+	char temp;
+
+	while (*(n + i) != '\0')
+	{
+		i++;
+	}
+	i--;
+
+	for (j = 0; j < i; j++, i--)
+	{
+		temp = *(n + j);
+		*(n + j) = *(n + i);
+		*(n + i) = temp;
+	}
+}
+
+/**
  * infinite_add - a C program that adds two numbers.
  * @n1: The first number to be added
  * @n2: The second number to be added
@@ -45,6 +68,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	if (digits == size_r)
 		return (0);
 	*(r + digits) = '\0';
+	rev_string(r);
 	return (r);
 }
 
