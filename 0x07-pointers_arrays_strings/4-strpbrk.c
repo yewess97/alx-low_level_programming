@@ -9,7 +9,7 @@
  **/
 char *_strpbrk(char *s, char *accept)
 {
-	int i, j;
+	unsigned int i, j;
 
 	for (i = 0; *(s + i); i++)
 	{
@@ -18,7 +18,9 @@ char *_strpbrk(char *s, char *accept)
 			if (*(s + i) == *(accept + j))
 				break;
 		}
-		return (s + i);
+
+		if (*(accept + j) != '\0')
+			return (s + i);
 	}
 
 	return (NULL);
