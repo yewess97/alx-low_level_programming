@@ -2,7 +2,7 @@
 /**
  * _strlen_recursion - a C program that returns the length of a string.
  * @s: The input string to return its length
- * ٌReturn: The length of a string
+ * Return: The length of a string
  **/
 int _strlen_recursion(char *s)
 {
