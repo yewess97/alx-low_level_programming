@@ -22,7 +22,8 @@ int _sqrt(int n, int i)
  * _sqrt_recursion - a C program that returns the natural square root
  * of a number.
  * * @n: A given number to calculate its natural square root
- * Return: The natural square root of (n)
+ * Return: The natural square root
+ * of a number.
  */
 int _sqrt_recursion(int n)
 {
