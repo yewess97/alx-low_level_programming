@@ -1,1 +1,1 @@
-My C - argc, argv Project
+My C - Static libraries Project
