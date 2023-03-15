@@ -1,10 +1,6 @@
 #include <stdlib.h>
 #include "main.h"
 
-int word_len(char *str);
-int count_words(char *str);
-char **strtow(char *str);
-
 /**
  * word_len - Locates the index marking the end of the first word
  * contained within a string.
@@ -62,7 +58,7 @@ char **strtow(char *str)
 	int i = 0, words, w, letters, l;
 	char **strings;
 
-	if (str == NULL || str == '\0')
+	if (str == NULL || str[0] == '\0')
 		return (NULL);
 
 	words = count_words(str);
@@ -70,7 +66,7 @@ char **strtow(char *str)
 	if (words == 0)
 		return (NULL);
 
-	strings = malloc(sizeof(char *) * (words + 1));
+	strings = malloc(sizeof(char *) * (++words));
 
 	if (strings == NULL)
 		return (NULL);
@@ -82,7 +78,7 @@ char **strtow(char *str)
 
 		letters = word_len(str + i);
 
-		strings[w] = malloc(sizeof(char) * (letters + 1));
+		strings[w] = malloc(sizeof(char) * (++letters));
 
 		if (strings[w] == NULL)
 		{
