@@ -17,7 +17,6 @@ int is_digit(char *s)
 			return (0);
 		i++;
 	}
-
 	return (1);
 }
 
@@ -31,8 +30,9 @@ int _strlen(char *s)
 	int i = 0;
 
 	while (s[i] != '\0')
+	{
 		i++;
-
+	}
 	return (i);
 }
 
