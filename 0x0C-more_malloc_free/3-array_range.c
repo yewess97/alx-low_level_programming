@@ -3,7 +3,8 @@
 /**
  * array_range - a C program that creates an array of integers.
  * @min: A given minimum range of values to be stored
- * @max: A given maximum range of values to be stored and the number of elements
+ * @max: A given maximum range of values to be stored
+ * and the number of elements
  * Return: A pointer to the newly created array
  **/
 int *array_range(int min, int max)
@@ -18,8 +19,8 @@ int *array_range(int min, int max)
 	if (!arr)
 		return (NULL);
 
-	while (i <= max - min)
-		arr[i++] = min++;
+	for (; min <= max; i++)
+		arr[i] = min++;
 
 	return (arr);
 }
