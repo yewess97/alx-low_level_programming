@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * main - a C program that prints the opcodes of its own main function.
  * @argc: The number of arguments supplied to the program
